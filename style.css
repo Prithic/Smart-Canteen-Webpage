@@ -5,7 +5,7 @@ body {
 }
 
 header {
-    background-color: #1e4fa8;
+    background: linear-gradient(135deg, #1e4fa8, #0073e6);
     color: white;
     padding: 20px;
     text-align: center;
@@ -22,10 +22,15 @@ nav a {
     text-decoration: none;
     color: #1e4fa8;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #1e4fa8;
+    color: white;
+    text-decoration: none;
 }
 
 .content {
@@ -34,6 +39,7 @@ nav a:hover {
     margin: auto;
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 table {
@@ -48,6 +54,17 @@ table, th, td {
 th, td {
     padding: 12px;
     text-align: center;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 footer {
